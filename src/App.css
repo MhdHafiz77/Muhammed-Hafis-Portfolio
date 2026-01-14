@@ -1,0 +1,73 @@
+/* =======================
+   GLOBAL RESET
+======================= */
+html,
+body {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+/* =======================
+   ROOT FIX
+======================= */
+#root {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+/* =======================
+   APP LAYOUT
+======================= */
+.App {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+}
+
+/* =======================
+   FOOTER
+======================= */
+.footer {
+  margin-top: auto;
+  width: 100%;
+  background-color: #020617;
+  padding-top: 10px;
+  padding-bottom: 8px;
+}
+
+.footer-copywright {
+  text-align: center;
+}
+
+.footer-body {
+  z-index: 1;
+  text-align: center;
+}
+
+.footer h3 {
+  font-size: 1em;
+  color: white;
+  margin: 0.5em 0;
+}
+
+.footer-icons {
+  margin-top: 0.5em;
+  margin-bottom: 0.5em;
+  padding: 0;
+}
+
+.blockquote-footer {
+  color: #7dd3fc;
+}
+
+/* =======================
+   MOBILE FOOTER
+======================= */
+@media (max-width: 767px) {
+  .footer-copywright,
+  .footer-body {
+    text-align: center;
+  }
+}
